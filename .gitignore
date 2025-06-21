@@ -1,0 +1,14 @@
+# Global ignores
+node_modules/
+.env
+*.log
+
+# Ignore client and server specific
+client/node_modules/
+client/.env
+server/node_modules/
+server/.env
+
+# IDE files
+.vscode/
+.idea/
